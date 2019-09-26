@@ -6,11 +6,15 @@
 	"utn.h"
 	"entidades.h"
 
+1557276041 .h"
+
 1556426217 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\utn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"utn.h"
+
+1557344918 
 
 1556483107 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\utn.h
 
@@ -72,6 +76,8 @@
 	"utn.h"
 	"fantasma.h"
 
+1557344437 h"
+
 1557344132 source:/home/mauro/Descargas/FANTASMA/main.c
 	<string.h>
 	<stdio.h>
@@ -100,6 +106,8 @@
 	<stdlib.h>
 	"utn.h"
 	"estudiante.h"
+
+1569019228 e.h"
 
 1557276042 e:\a-utn\tsp038-programacion i-laboratorio i\clases\clase 9\estudiante\estudiante\utn.h
 
@@ -186,6 +194,37 @@
 	"estudiante.h"
 
 1557344918 source:c:\users\alumno\desktop\estudiante - carrera\estudiante\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1569245646 source:/home/alumno/Documentos/martinsamb/clase_11/programacion01/23_09_labo1_TM/Estudiante - carrera/Estudiante/estudiante.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"estudiante.h"
+
+1557276042 /home/alumno/Documentos/martinsamb/clase_11/programacion01/23_09_labo1_TM/Estudiante - carrera/Estudiante/utn.h
+
+1569245026 /home/alumno/Documentos/martinsamb/clase_11/programacion01/23_09_labo1_TM/Estudiante - carrera/Estudiante/estudiante.h
+
+1569019228 source:/home/alumno/Documentos/martinsamb/clase_11/programacion01/23_09_labo1_TM/Estudiante - carrera/Estudiante/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"estudiante.h"
+
+1569246043 source:/home/alumno/Documentos/martinsamb/clase_11/programacion01/23_09_labo1_TM/Estudiante - carrera/Estudiante/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"estudiante.h"
+
+1557344918 source:/home/alumno/Documentos/martinsamb/clase_11/programacion01/23_09_labo1_TM/Estudiante - carrera/Estudiante/utn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
