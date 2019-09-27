@@ -125,3 +125,27 @@
 	<string.h>
 	"utn.h"
 
+1557357428 source:/home/alumno/Documentos/martinsamb/programacion01/clase_12/01_Parcial_01/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557276040 /home/alumno/Documentos/martinsamb/programacion01/clase_12/01_Parcial_01/utn.h
+
+1557343986 /home/alumno/Documentos/martinsamb/programacion01/clase_12/01_Parcial_01/fantasma.h
+
+1557364490 source:/home/alumno/Documentos/martinsamb/programacion01/clase_12/01_Parcial_01/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344916 source:/home/alumno/Documentos/martinsamb/programacion01/clase_12/01_Parcial_01/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+

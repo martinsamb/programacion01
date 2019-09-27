@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "utn.h"
-#include "fantasma.h"  //cambiar por nombre entidad
-
+#include "asociado.h"  //cambiar por nombre entidad
+#include "llamada.h"
 
 #define QTY_TIPO 3
 
