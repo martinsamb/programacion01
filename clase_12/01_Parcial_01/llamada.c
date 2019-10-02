@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "utn.h"
-#include "llamada.h" //cambiar por nombre entidad
+#include "llamada.h"
+#include "asociado.h"
 
 
 /** \brief  To indicate that all position in the array are empty,
@@ -13,7 +14,7 @@
 * \return int Return (-1) if Error [Invalid length or NULL pointer] - (0) if Ok
 *
 */
-int llamada_Inicializar(Llamada array[], int size)                                    //cambiar llamada
+int llamada_Inicializar(Llamada array[], int size)
 {
     int retorno=-1;
     if(array!= NULL && size>0)

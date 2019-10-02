@@ -13,7 +13,7 @@ typedef struct
     int dni;
     int edad;
 
-}asociado;
+}Asociado;
 
 
 #endif // ASOCIADO_H_INCLUDED

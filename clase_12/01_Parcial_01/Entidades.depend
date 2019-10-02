@@ -149,3 +149,27 @@
 	<string.h>
 	"utn.h"
 
+1570043572 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\programacion01\programacion01\clase_12\01_parcial_01\fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570043573 c:\users\maría marta\desktop\martin\utn\04_programacion1\programacion01\programacion01\clase_12\01_parcial_01\utn.h
+
+1570043572 c:\users\maría marta\desktop\martin\utn\04_programacion1\programacion01\programacion01\clase_12\01_parcial_01\fantasma.h
+
+1570043572 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\programacion01\programacion01\clase_12\01_parcial_01\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570043573 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\programacion01\programacion01\clase_12\01_parcial_01\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+

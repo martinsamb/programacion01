@@ -13,10 +13,10 @@ int main()
     int contadorIdAsociado=0;
     int contadorIdLlamada = 0;                  //cambiar
 
-    asociado arrayAsociado[QTY_TIPO];                   //cambiar
+    Asociado arrayAsociado[QTY_TIPO];                   //cambiar
     asociado_Inicializar(arrayAsociado,QTY_TIPO);
 
-    llamada arrayLlamada[QTY_TIPO];                   //cambiar
+    Llamada arrayLlamada[QTY_TIPO];                   //cambiar
     llamada_Inicializar(arrayLlamada,QTY_TIPO);                 //cambiar
 
     do

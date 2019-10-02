@@ -74,7 +74,7 @@ int asociado_buscarID(Asociado array[], int size, int valorBuscado, int* posicio
         {
             if(array[i].isEmpty==1)
                 continue;
-            else if(array[i].idUnico==valorBuscado)                                                   //cambiar campo ID
+            else if(array[i].idAsociado==valorBuscado)                                                   //cambiar campo ID
             {
                 retorno=0;
                 *posicion=i;
@@ -101,7 +101,7 @@ int asociado_buscarInt(Asociado array[], int size, int valorBuscado, int* posici
         {
             if(array[i].isEmpty==1)
                 continue;
-            else if(array[i].varInt==valorBuscado)                                                   //cambiar campo varInt
+            else if(array[i].idAsociado==valorBuscado)                                                   //cambiar campo varInt
             {
                 retorno=0;
                 *posicion=i;
@@ -130,7 +130,7 @@ int asociado_buscarString(Asociado array[], int size, char* valorBuscado, int* i
         {
             if(array[i].isEmpty==1)
                 continue;
-            else if(strcmp(array[i].varString,valorBuscado)==0)                                        //cambiar campo varString
+            else if(strcmp(array[i].idAsociado,valorBuscado)==0)                                        //cambiar campo varString
             {
                 *indice=i;
                 retorno=0;
@@ -163,14 +163,15 @@ int asociado_alta(Asociado array[], int size, int* contadorID)                  
         else
         {
             (*contadorID)++;
-            array[posicion].idUnico=*contadorID;                                                       //campo ID
+            array[posicion].idAsociado=*contadorID;                                                       //campo ID
             array[posicion].isEmpty=0;
-            utn_getUnsignedInt("\ngetUnsignedInt: ","\nError",1,sizeof(int),1,1,1,&array[posicion].varInt);           //mensaje + cambiar campo varInt
-            utn_getFloat("\ngetFloat: ","\nError",1,sizeof(float),0,1,1,&array[posicion].varFloat);             //mensaje + cambiar campo varFloat
-            utn_getName("getName\n: ","\nError",1,TEXT_SIZE,1,array[posicion].varString);                      //mensaje + cambiar campo varString
-            utn_getTexto("getTexto\n: ","\nError",1,TEXT_SIZE,1,array[posicion].varLongString);                 //mensaje + cambiar campo varLongString
-            printf("\n Posicion: %d\n ID: %d\n varInt: %d\n varFloat: %f\n varString: %s\n varLongString: %s",
-                   posicion, array[posicion].idUnico,array[posicion].varInt,array[posicion].varFloat,array[posicion].varString,array[posicion].varLongString);
+            utn_getUnsignedInt("\nID asociado: ","\nError",1,sizeof(int),1,1,1,&array[posicion].idAsociado);           //mensaje + cambiar campo varInt
+            utn_getDNI("\nDNI:","\nDNI:",1,12,1, array[posicion].dni);
+            utn_getTexto("\nNombre: : ","\nError",1,TEXT_SIZE,1,array[posicion].nombre);
+            utn_getTexto("\nApellido: ","\nError",1,TEXT_SIZE,1,array[posicion].apellido);
+            utn_getUnsignedInt("\nEdad: ","\nError",1,sizeof(int),1,1,1,&array[posicion].edad);
+            printf("\n Posicion: %d\n ID Asociado: %d\nDNI: %s\nNombre: %d\nApellido: %d\nEdad: %s",
+                   array[posicion].idAsociado,array[posicion].dni,array[posicion].nombre,array[posicion].apellido,array[posicion].edad);
             retorno=0;
         }
     }
@@ -200,11 +201,11 @@ int asociado_baja(Asociado array[], int sizeArray)                              
         else
         {
             array[posicion].isEmpty=1;
-            array[posicion].idUnico=0;                                                                   //cambiar campo id
-            array[posicion].varInt=0;                                                               //cambiar campo varInt
-            array[posicion].varFloat=0;                                                             //cambiar campo varFloat
-            strcpy(array[posicion].varString,"");                                                   //cambiar campo varString
-            strcpy(array[posicion].varLongString,"");                                               //cambiar campo varLongString
+            array[posicion].idAsociado=0;                                                                   //cambiar campo id
+            array[posicion].dni=0;                                                               //cambiar campo varInt
+            array[posicion].edad=0;                                                             //cambiar campo varFloat
+            strcpy(array[posicion].nombre,"");                                                   //cambiar campo varString
+            strcpy(array[posicion].apellido,"");                                               //cambiar campo varLongString
             retorno=0;
         }
     }
