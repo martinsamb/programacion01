@@ -2,33 +2,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "utn.h"
-#include "fantasma.h"  //cambiar por nombre entidad
+#include "pantalla.h"
+#include "publicidad.h"
 
 /** \brief Busca un valor y lista los elementos de dos arrays vinculados
-* \param arrayA Fantasma Array de Fantasma
-* \param arrayB Fantasma Array de Fantasma
+* \param arrayA Publicidad Array de Publicidad
+* \param arrayB Pantalla Array de Pantalla
 * \param sizeI int Tamaño del arrayA
 * \param sizeJ int Tamaño del arrayB
 * \param criterio char* Puntero al valor que debe contener el elemento del array para que se liste
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-int Informes_listarPorCriterio(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ, char* criterio)  //Valores de dos arrays. Si es valor repetido se vuelve a imprimir
+int Informes_listarPantallasPorCuit(Publicidad arrayPublicidad[], Pantalla arrayPantalla[], int sizeI, int sizeJ, char* cuitBuscado)  //Valores de dos arrays. Si es valor repetido se vuelve a imprimir
 {
     int retorno=-1;
     int i;
     int j;
-    if(arrayA!=NULL && sizeI>=0 && arrayB!=NULL && sizeJ>=0 && criterio!=NULL)
+    if(arrayPublicidad!=NULL && sizeI>=0 && arrayPantalla!=NULL && sizeJ>=0 && cuitBuscado!=NULL)
     {
         for(i=0;i<sizeI;i++)                                                                            //Obtengo la posicion de la primer entidad
         {
-            if(arrayA[i].isEmpty==1)                 //cambiar campo donde busco el criterio
+            if(arrayPublicidad[i].isEmpty==1)                 //cambiar campo donde busco el criterio
                 continue;                                                                       //si esta vacio o no tiene el criterio > continue
-            if(strcmp(arrayA[i].varString,criterio)==0)
+            if(strcmp(arrayPublicidad[i].cuit,cuitBuscado)==0)
             {
-                fantasma_buscarID(arrayB,sizeJ,arrayA[i].idUnico,&j);                            //Obtengo la posicion de la 2da entidad buscando por el campo en comun
-                printf("\nID A: %d\nID B: %d",
-                       arrayA[i].idUnico,arrayB[j].idUnico);
+                pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j);                            //Obtengo la posicion de la 2da entidad buscando por el campo en comun
+                printf("\nID publicidad: %d\nID pantalla: %d\nNombre: %s\nDireccion: %s\nTipo: $s\nPrecio: $.2f",
+                       arrayPublicidad[i].idPublicidad,arrayPublicidad[i].idPantalla,arrayPantalla[j].nombre,arrayPantalla[j].direccion,arrayPantalla[j].tipo,arrayPantalla[j].precio);
             }
 
         }
@@ -46,42 +47,24 @@ int Informes_listarPorCriterio(Fantasma arrayA[], Fantasma arrayB[], int sizeI, 
 *
 */
 //Lista un campo que se repite, lo imprime una sola vez y calcula contador y acumulado
-int Informes_listarCriterioContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ)         //cambiar Fantasma
+int Informes_listarFacturacionPorCuit(Publicidad arrayPublicidad[], Pantalla arrayPantalla[], int sizeI, int sizeJ, char* cuitBuscado)         //cambiar Fantasma
 {
     int retorno=-1;
     int i;
     int j;
-    int k;
-    int auxPosicion;
-    int contador=0;
-    int acumulado=0;
-
-    if(arrayA!=NULL && sizeI>=0 && arrayB!=NULL && sizeJ>=0)
+    int importe;
+    if(arrayPublicidad!=NULL && sizeI>=0 && arrayPantalla!=NULL && sizeJ>=0 && cuitBuscado!=NULL)
     {
         for(i=0;i<sizeI;i++)
         {
-            fantasma_buscarString(arrayA,i,arrayA[i].varString,&auxPosicion);                  //cambiar nombreFuncion y campo      va a analizar hasta <i
-            if(arrayA[i].isEmpty==1 && auxPosicion!=-1)
+            if(arrayPublicidad[i].isEmpty==1 && strcmp(arrayPublicidad[i].cuit,cuitBuscado)!=0)
                 continue;                                                                 //Si ese valor ya aparecio > continue
             else
             {
-                printf("\nCampo: %s",arrayA[i].varString);                                   //Imprimo el valor que voy a listar
-                for(k=i,contador=0,acumulado=0;k<sizeI;k++)                                                            //Recorro por segunda vez el mismo array
-                {
-                    if(arrayA[k].isEmpty!=1 && strcmp(arrayA[k].varString,arrayA[i].varString)==0)     //Busco todas las veces que aparece ese cuit
-                    {
-                        fantasma_buscarID(arrayB,sizeJ,arrayA[k].idUnico,&j);                 //cambiar Fantasma, busco por el campo en comun
-
-                        contador++;
-                        acumulado+=(arrayA[k].varInt*arrayB[j].varInt);
-
-                        printf("\nID A: %d\nID B: %d",
-                                arrayA[k].idUnico,arrayB[j].idUnico);
-                    }
-                }
-                printf("\nCantidad: %d \nAcumulado: %d",contador,acumulado);
-                //contador=0;
-                //acumulado=0;
+                pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j);
+                importe = (arrayPublicidad[i].dias*arrayPantalla[j].precio);
+                printf("\nID Publicidad: %d\nID Pantalla: %d\nDias: %d\nPrecio: %.2f\nImporte: %d",
+                       arrayPublicidad[i].idPublicidad,arrayPublicidad[i].idPantalla,arrayPublicidad[i].dias,arrayPantalla[j].precio,importe);
             }
         }
         retorno=0;
@@ -97,89 +80,24 @@ int Informes_listarCriterioContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-int Informes_maxContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ)
+int Informes_listarContrataciones(Publicidad arrayPublicidad[], Pantalla arrayPantalla[], int sizeI, int sizeJ)
 {
     int retorno=-1;
     int i;
     int j;
-    int k;
-    int auxPosicion;
-    int maxAcumulado=0;
-    int maxContador=0;
-    int acumulador=0;
-    int contador=0;
-    int iMaxAcumulado [sizeI];
-    int iMaxContador [sizeI];
-
-    if(arrayA!=NULL && sizeI>=0 && arrayB!=NULL && sizeJ>=0)
+    if(arrayPublicidad!=NULL && sizeI>=0 && arrayPantalla!=NULL && sizeJ>=0)
     {
         for(i=0;i<sizeI;i++)
         {
-            fantasma_buscarString(arrayA,i,arrayA[i].varString,&auxPosicion);                  //cambiar nombreFuncion y campo
-            if(arrayA[i].isEmpty==1 && auxPosicion!=-1)
-                continue;                                                                 //Si ese valor ya aparecio > continue
+            if(arrayPublicidad[i].isEmpty==1)
+                continue;
             else
             {
-                printf("\nCampo: %s",arrayA[i].varString);                                   //Imprimo el valor que voy a listar
-                for(k=i;k<sizeI;k++)                                                            //Recorro por segunda vez el mismo array
-                {
-                    if(arrayA[k].isEmpty!=1 && strcmp(arrayA[k].varString,arrayA[i].varString)==0)     //Busco todas las veces que aparece ese cuit
-                    {
-
-                        fantasma_buscarID(arrayB,sizeJ,arrayA[k].idUnico,&j);                 //cambiar Fantasma, busco por el campo en comun
-
-                        contador++;                                                         //calculos acumulados y contador
-                        acumulador+=(arrayA[k].varInt*arrayB[j].varInt);
-
-                        printf("\nID A: %d\nID B: %d",                                         //imprimo datos que haya que mostrar
-                                arrayA[k].idUnico,arrayB[j].idUnico);
-                    }
-                }
-                //Guardo los max acumulado y contador
-                if(acumulador>maxAcumulado)
-                {
-                    maxAcumulado=acumulador;
-                    iMaxAcumulado[i-1]=-1;                       //Si mas de un cuit tiene la mayor facturacion
-                    iMaxAcumulado[i]=i;
-                }
-                else if(acumulador==maxAcumulado)
-                    iMaxAcumulado[i]=i;
-                else
-                    iMaxAcumulado[i]=-2;                         //Para marcar los lugares vacios
-
-                acumulador=0;
-
-                if(contador>maxContador)
-                {
-                    maxContador=contador;
-                    iMaxContador[i-1]=-1;                       //Si mas de un cuit tiene la mayor facturacion
-                    iMaxContador[i]=i;
-                }
-                else if(contador==maxContador)
-                    iMaxContador[i]=i;
-                else
-                    iMaxContador[i]=-2;                         //Para marcar los lugares vacios
-
-                contador=0;
+                pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j);
+                printf("\nID Publicidad: %d\nNombre pantalla: %s\nNombre video: %s\nDias: $d\nCuit cliente: %s",
+                       arrayPublicidad[i].idPublicidad,arrayPantalla[j].nombre,arrayPublicidad[i].archivo,arrayPublicidad[i].dias,arrayPublicidad[i].cuit);
             }
         }
-
-        printf("\nMayor acumulado: %d \nMayor contador: %d \nI: ",maxAcumulado,maxContador);
-        for(;iMaxAcumulado[i]!=-1;i--)                                                      //Uno o el otro, sino agregar otro contador que no sea el i
-        {
-            if(iMaxAcumulado[i]!=-2)                         //Salteo los vacios
-            {
-                printf("\n          CUIT: %s",arrayA[iMaxAcumulado[i]].varString);
-            }
-        }
-        for(;iMaxContador[i]!=-1;i--)
-        {
-            if(iMaxContador[i]!=-2)                         //Salteo los vacios
-            {
-                printf("\n          CUIT: %s",arrayA[iMaxContador[i]].varString);
-            }
-        }
-
         retorno=0;
     }
     return retorno;
@@ -193,45 +111,39 @@ int Informes_maxContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int size
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-int Informes_listarAuxiliarOrdenar(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ)         //cambiar Fantasma
+int Informes_listarCuit(Publicidad arrayPublicidad[], Pantalla arrayPantalla[], int sizeI, int sizeJ)         //cambiar Fantasma
 {
     int retorno=-1;
     int i;
     int j;
     int k;
+    int importe;
     int auxPosicion;
-    int contador=0;
-    int acumulado=0;
+    int contadorContrataciones;
 
-    Fantasma arrayAux[sizeI];                                                           //cambiar Fantasma y size si corresponde
-
-    if(arrayA!=NULL && sizeI>=0 && arrayB!=NULL && sizeJ>=0)
+    if(arrayPublicidad!=NULL && sizeI>=0 && arrayPantalla!=NULL && sizeJ>=0)
     {
         for(i=0;i<sizeI;i++)
         {
-            fantasma_buscarString(arrayA,i,arrayA[i].varString,&auxPosicion);                  //cambiar nombreFuncion y campo      va a analizar hasta <i
-            if(arrayA[i].isEmpty==1 && auxPosicion!=-1)
+            publicidad_buscarCuit(arrayPublicidad,i-1,arrayPublicidad[i].cuit,&auxPosicion);                  //cambiar nombreFuncion y campo      va a analizar hasta <i
+            if(arrayPublicidad[i].isEmpty==1 && auxPosicion!=-1)
                 continue;                                                                 //Si ese valor ya aparecio > continue
             else
             {
-                strcpy(arrayAux[i].varString,arrayA[i].varString);                              //cambio varstring
+                printf("\nCUIT: %s",arrayPublicidad[i].cuit);
                 for(k=i;k<sizeI;k++)                                                            //Recorro por segunda vez el mismo array
                 {
-                    if(arrayA[k].isEmpty!=1 && strcmp(arrayA[k].varString,arrayA[i].varString)==0)     //Busco todas las veces que aparece ese cuit
+                    if(arrayPublicidad[k].isEmpty!=1 && strcmp(arrayPublicidad[k].cuit,arrayPublicidad[i].cuit)==0)     //Busco todas las veces que aparece ese cuit
                     {
-                        fantasma_buscarID(arrayB,sizeJ,arrayA[k].idUnico,&j);                 //cambiar Fantasma, busco por el campo en comun
-
-                        contador++;
-                        acumulado+=(arrayA[k].varInt*arrayB[j].varInt);
+                        contadorContrataciones++;
+                        pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j);
+                        importe=(arrayPublicidad[k].dias*arrayPantalla[j].precio);
+                        printf("\nID publicidad: %d  Importe: %d",arrayPublicidad[k].idPublicidad,importe);
 
                     }
                 }
-                arrayAux[i].varInt=contador;                                    //completo el resto de los campos
-                arrayAux[i].varInt=acumulado;
-                arrayAux[i].isEmpty=0;
-
-                contador=0;
-                acumulado=0;
+                printf("\nCantidad contrataciones: %d",contadorContrataciones);
+                contadorContrataciones=0;
             }
         }
         retorno=0;
