@@ -27,9 +27,16 @@ int Informes_listarPantallasPorCuit(Publicidad arrayPublicidad[], Pantalla array
                 continue;                                                                       //si esta vacio o no tiene el criterio > continue
             if(strcmp(arrayPublicidad[i].cuit,cuitBuscado)==0)
             {
-                pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j);                            //Obtengo la posicion de la 2da entidad buscando por el campo en comun
-                printf("\nID publicidad: %d\nID pantalla: %d\nNombre: %s\nDireccion: %s\nTipo: $s\nPrecio: $.2f",
-                       arrayPublicidad[i].idPublicidad,arrayPublicidad[i].idPantalla,arrayPantalla[j].nombre,arrayPantalla[j].direccion,arrayPantalla[j].tipo,arrayPantalla[j].precio);
+                if(pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j)==0)
+                {
+                    printf("\nID publicidad: %d\nID pantalla: %d\nNombre: %s\nDireccion: %s\nTipo: $s\nPrecio: $.2f",
+                    arrayPublicidad[i].idPublicidad,arrayPublicidad[i].idPantalla,arrayPantalla[j].nombre,arrayPantalla[j].direccion,arrayPantalla[j].tipo,arrayPantalla[j].precio);
+                }
+                else
+                {
+                    printf("No existe el ID");
+                }
+
             }
 
         }

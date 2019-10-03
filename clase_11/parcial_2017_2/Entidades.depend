@@ -94,18 +94,18 @@
 
 1557343987 /home/mauro/Descargas/FANTASMA/fantasma.h
 
-1569546701 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\fantasma.c
+1570065225 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\fantasma.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 	"utn.h"
 	"fantasma.h"
 
-1569546701 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\utn.h
+1570065225 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\utn.h
 
-1569546701 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\fantasma.h
+1570065225 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\fantasma.h
 
-1570039441 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\informes.c
+1570069549 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\informes.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
@@ -113,18 +113,18 @@
 	"pantalla.h"
 	"publicidad.h"
 
-1570033648 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\pantalla.h
+1570065225 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\pantalla.h
 
-1570036361 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\publicidad.h
+1570065225 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\publicidad.h
 
-1570034910 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\pantalla.c
+1570073900 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\pantalla.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
 	"utn.h"
 	"pantalla.h"
 
-1570035020 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\main.c
+1570074662 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\main.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
@@ -133,15 +133,69 @@
 	"pantalla.h"
 	"informes.h"
 
-1570032400 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\informes.h
+1570065225 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\informes.h
 
-1569546701 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\utn.c
+1570065225 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\utn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"utn.h"
 
-1570036311 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\publicidad.c
+1570065225 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_11\parcial_2017_2\publicidad.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+
+1570065225 source:d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570065225 d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\utn.h
+
+1570065225 d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\fantasma.h
+
+1570069549 source:d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+	"publicidad.h"
+
+1570065225 d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\pantalla.h
+
+1570065225 d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\publicidad.h
+
+1570073783 source:d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+	"pantalla.h"
+	"informes.h"
+
+1570065225 d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\informes.h
+
+1570065225 source:d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1570073900 source:d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\pantalla.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+
+1570065225 source:d:\mis documentos\programacion01\programacion01\clase_11\parcial_2017_2\publicidad.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>

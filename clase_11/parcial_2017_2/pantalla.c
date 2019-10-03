@@ -228,7 +228,7 @@ int pantalla_listar(Pantalla array[], int size)                      //cambiar p
             if(array[i].isEmpty==1)
                 continue;
             else
-                printf("\nPosicion: %d\nID: %d\nNombre: %f\nDireccion: %s\nTipo: %s\nPrecio: %.2f",i,
+                printf("\nPosicion: %d\nID: %d\nNombre: %s\nDireccion: %s\nTipo: %s\nPrecio: %.2f *****",i,
                        array[i].idPantalla,array[i].nombre,array[i].direccion,array[i].tipo,array[i].precio);      //cambiar todos
         }
         retorno=0;

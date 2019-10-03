@@ -14,7 +14,7 @@ typedef struct
     int idAmbulancia;
     int tiempo;
 
-}Llamada;
+}llamada;
 
 
 #endif // ASOCIADO_H_INCLUDED
@@ -23,7 +23,7 @@ int llamada_Inicializar(Llamada array[], int size);                             
 int llamada_buscarEmpty(Llamada array[], int size, int* posicion);                    //cambiar llamada
 int llamada_buscarID(Llamada array[], int size, int valorBuscado, int* posicion);                    //cambiar llamada
 int llamada_buscarInt(Llamada array[], int size, int valorBuscado, int* posicion);                    //cambiar llamada
-int llamada_buscarString(Llamada array[], int size, char* valorBuscado, int* indice)                    //cambiar llamada
+int llamada_buscarString(Llamada array[], int size, char* valorB#endif // llamada_H_INCLUDEDuscado, int* indice);                    //cambiar llamada
 int llamada_alta(Llamada array[], int size, int* contadorID);                          //cambiar llamada
 int llamada_baja(Llamada array[], int sizeArray);                                      //cambiar llamada
 int llamada_bajaValorRepetidoInt(Llamada array[], int sizeArray, int valorBuscado);

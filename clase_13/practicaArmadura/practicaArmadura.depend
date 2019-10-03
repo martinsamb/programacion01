@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1569973129 source:/home/santiago/Escritorio/pasar de fantasma a mia/practicaArmadura/practicaArmadura.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"practicaArmadura.h"
+
+1557276040 /home/santiago/Escritorio/pasar de fantasma a mia/practicaArmadura/utn.h
+
+1569971287 /home/santiago/Escritorio/pasar de fantasma a mia/practicaArmadura/practicaArmadura.h
+
+1569694725 source:/home/santiago/Escritorio/pasar de fantasma a mia/practicaArmadura/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1569887784 source:/home/santiago/Escritorio/pasar de fantasma a mia/practicaArmadura/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"practicaArmadura.h"
+
+1569705794 source:/home/santiago/Escritorio/pasar de fantasma a mia/practicaArmadura/informes.c
+
+1569705794 source:/home/alumno/Documentos/prueba/practicaArmadura/informes.c
+
+1570063783 source:/home/alumno/Documentos/prueba/practicaArmadura/practicaArmadura.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"practicaArmadura.h"
+
+1557276040 /home/alumno/Documentos/prueba/practicaArmadura/utn.h
+
+1569971287 /home/alumno/Documentos/prueba/practicaArmadura/practicaArmadura.h
+
+1569694725 source:/home/alumno/Documentos/prueba/practicaArmadura/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1570063726 source:/home/alumno/Documentos/prueba/practicaArmadura/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"practicaArmadura.h"
+
