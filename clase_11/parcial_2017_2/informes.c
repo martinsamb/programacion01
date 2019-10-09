@@ -36,7 +36,9 @@ int Informes_listarPantallasPorCuit(Publicidad arrayPublicidad[], Pantalla array
                 {
                     printf("No existe el ID");
                 }
+
             }
+
         }
         retorno=0;
     }
@@ -67,6 +69,7 @@ int Informes_listarFacturacionPorCuit(Publicidad arrayPublicidad[], Pantalla arr
             else
             {
                 pantalla_buscarID(arrayPantalla,sizeJ,arrayPublicidad[i].idPantalla,&j);
+                importe = (arrayPublicidad[i].dias*arrayPantalla[j].precio);
                 printf("\nID Publicidad: %d\nID Pantalla: %d\nDias: %d\nPrecio: %.2f\nImporte: %d",
                        arrayPublicidad[i].idPublicidad,arrayPublicidad[i].idPantalla,arrayPublicidad[i].dias,arrayPantalla[j].precio,importe);
             }
@@ -75,6 +78,7 @@ int Informes_listarFacturacionPorCuit(Publicidad arrayPublicidad[], Pantalla arr
     }
     return retorno;
 }
+
 /** \brief Busca un maximo de ocurrencia y acumulado
 * \param arrayA Fantasma Array de Fantasma
 * \param arrayB Fantasma Array de Fantasma
@@ -105,6 +109,7 @@ int Informes_listarContrataciones(Publicidad arrayPublicidad[], Pantalla arrayPa
     }
     return retorno;
 }
+
 /** \brief Crea una entidad auxiliar para ordenar e informar XXXXX
 * \param arrayA Fantasma Array de Fantasma
 * \param arrayB Fantasma Array de Fantasma

@@ -51,29 +51,3 @@
 	"utn.h"
 	"practicaArmadura.h"
 
-1570152008 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_13\practicaarmadura\informes.c
-
-1570152008 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_13\practicaarmadura\main.c
-	<string.h>
-	<stdio.h>
-	<stdlib.h>
-	"utn.h"
-	"practicaArmadura.h"
-
-1570152008 d:\mis documentos\martinsamb\programacion01\programacion01\clase_13\practicaarmadura\utn.h
-
-1570152008 d:\mis documentos\martinsamb\programacion01\programacion01\clase_13\practicaarmadura\practicaarmadura.h
-
-1570152008 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_13\practicaarmadura\practicaarmadura.c
-	<string.h>
-	<stdio.h>
-	<stdlib.h>
-	"utn.h"
-	"practicaArmadura.h"
-
-1570152008 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_13\practicaarmadura\utn.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"utn.h"
-

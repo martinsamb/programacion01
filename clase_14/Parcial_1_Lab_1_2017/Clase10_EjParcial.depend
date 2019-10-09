@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1556994886 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+	"pantalla.h"
+	"informes.h"
+
+1556990462 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\publicidad.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+
+1556397566 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1556397430 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\utn.h
+
+1556480433 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\pantalla.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+
+1556480427 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\pantalla.h
+
+1556994898 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\publicidad.h
+
+1556938595 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+	"pantalla.h"
+
+1557007127 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\ejercicios hechos en clase\clase10_ejparcial\informes.h
+
