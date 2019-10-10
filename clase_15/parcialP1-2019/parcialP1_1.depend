@@ -1,0 +1,190 @@
+# depslib dependency file v1.0
+1559173224 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"informes.h"
+	"instrumento.h"
+	"musico.h"
+	"orquesta.h"
+
+1559027099 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\utn.h
+
+1559159638 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\informes.h
+	"instrumento.h"
+	"musico.h"
+	"orquesta.h"
+
+1559067231 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\instrumento.h
+
+1559106569 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\musico.h
+
+1559106586 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\orquesta.h
+	"musico.h"
+
+1559116994 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+
+1559159804 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1559105905 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+
+1559105924 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1559159742 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\parcial\parcialp_f\parcialp1_1\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+	"informes.h"
+
+1559195637 source:c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1559027100 c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\utn.h
+
+1559067232 c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\instrumento.h
+
+1559185158 source:c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+	"informes.h"
+
+1559234572 c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\orquesta.h
+	"musico.h"
+
+1559199873 c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\musico.h
+
+1559184072 c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\informes.h
+	"instrumento.h"
+	"musico.h"
+	"orquesta.h"
+
+1559200007 source:c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+
+1559234593 source:c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1559238703 source:c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+
+1559203092 source:c:\users\maría marta\desktop\martin\utn\programacion1\parcial\parcialp1_1\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"informes.h"
+	"instrumento.h"
+	"musico.h"
+	"orquesta.h"
+
+1559246569 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"informes.h"
+	"instrumento.h"
+	"musico.h"
+	"orquesta.h"
+
+1559246569 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\utn.h
+
+1559246569 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\informes.h
+	"instrumento.h"
+	"musico.h"
+	"orquesta.h"
+
+1559246569 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\instrumento.h
+
+1559246569 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\musico.h
+
+1559246569 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\orquesta.h
+	"musico.h"
+
+1559246569 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1559246569 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+	"informes.h"
+
+1559246569 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+
+1559246569 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1570479126 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\programacion01-master\clase_15\parcialp1-1-master\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+

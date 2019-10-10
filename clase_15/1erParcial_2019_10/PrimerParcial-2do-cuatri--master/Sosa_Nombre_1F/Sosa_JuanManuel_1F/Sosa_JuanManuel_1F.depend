@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1570491780 source:c:\users\alumno\desktop\sosa_nombre_1f\sosa_juanmanuel_1f\alquiler.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"alquiler.h"
+	"juegos.h"
+	"funciones.h"
+
+1570492009 c:\users\alumno\desktop\sosa_nombre_1f\sosa_juanmanuel_1f\clientes.h
+
+1570491820 c:\users\alumno\desktop\sosa_nombre_1f\sosa_juanmanuel_1f\alquiler.h
+
+1570491940 c:\users\alumno\desktop\sosa_nombre_1f\sosa_juanmanuel_1f\juegos.h
+
+1570490083 c:\users\alumno\desktop\sosa_nombre_1f\sosa_juanmanuel_1f\funciones.h
+
