@@ -94,3 +94,34 @@
 
 1557343987 /home/mauro/Descargas/FANTASMA/fantasma.h
 
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\fantasma_v3\fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\fantasma_v3\utn.h
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\fantasma_v3\fantasma.h
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\fantasma_v3\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\fantasma_v3\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\fantasma_v3\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+

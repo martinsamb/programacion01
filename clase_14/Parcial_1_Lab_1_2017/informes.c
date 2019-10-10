@@ -291,9 +291,9 @@ int Informes_masClientes(Pantalla arrayPantalla, Publicidad arrayPublicidad, int
     int contadorCuit;
     int iMayor[sizePublicidad];
 
-    for(i=0;i<sizePantalla,i++)
+    for(i=0;i<sizePantalla;i++)
     {
-        for(j=0;j<sizePublicidad,j++)
+        for(j=0;j<sizePublicidad;j++)
         {
             if(Publicidad[j].idPantalla==Pantalla[i].idPantalla)
                 contador++;

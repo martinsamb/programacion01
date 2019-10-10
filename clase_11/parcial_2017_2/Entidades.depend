@@ -202,3 +202,57 @@
 	"utn.h"
 	"publicidad.h"
 
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\utn.h
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\fantasma.h
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+	"publicidad.h"
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\pantalla.h
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\publicidad.h
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+	"pantalla.h"
+	"informes.h"
+
+1570669324 d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\informes.h
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\pantalla.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"pantalla.h"
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\publicidad.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"publicidad.h"
+
+1570669324 source:d:\mis documentos\martinsamb\programacion01\programacion01\clase_11\parcial_2017_2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
