@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1557720607 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\tp_2\tp_2\arrayemployees.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557720758 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\tp_2\tp_2\utn.h
+
+1557720720 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\tp_2\tp_2\arrayemployees.h
+
+1557720642 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\tp_2\tp_2\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557720669 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\ejercicios\tp_2\tp_2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1560445195 source:c:\users\maría marta\desktop\martin\utn\programacion1\tp_laboratorio_1\tp_2\arrayemployees.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557720758 c:\users\maría marta\desktop\martin\utn\programacion1\tp_laboratorio_1\tp_2\utn.h
+
+1560441879 c:\users\maría marta\desktop\martin\utn\programacion1\tp_laboratorio_1\tp_2\arrayemployees.h
+
+1560445510 source:c:\users\maría marta\desktop\martin\utn\programacion1\tp_laboratorio_1\tp_2\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557723466 source:c:\users\maría marta\desktop\martin\utn\programacion1\tp_laboratorio_1\tp_2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+

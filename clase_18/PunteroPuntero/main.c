@@ -13,6 +13,8 @@ typedef struct{
 void mostrarEmpleados(eEmpleado** lista, int len);
 eEmpleado* new_EmpleadoParam( int leg, char* nombre, char* apellido, float sueldo);
 eEmpleado* new_Empleado();
+int empleado_setLegajo(eEmpleado* this,int legajo);
+int empleado_getLegajo(eEmpleado* this,int* legajo);
 
 int main()
 {
@@ -85,9 +87,10 @@ int main()
 
 
 void mostrarEmpleados(eEmpleado** lista, int len){
-
+int auxleg;
 for(int i=0; i <= len; i++){
-    printf(" %5d   %10s   %15s     %8.2f\n", (*(lista + i))->legajo, (*(lista + i))->nombre, (*(lista + i))->apellido, (*(lista + i))->sueldo);
+    empleado_getLegajo(*(lista+i),&auxleg);
+    printf(" %5d   %10s   %15s     %8.2f\n", auxleg, (*(lista + i))->nombre, (*(lista + i))->apellido, (*(lista + i))->sueldo);
 }
 printf("\n\n");
 
@@ -113,12 +116,37 @@ eEmpleado* new_EmpleadoParam( int leg, char* nombre, char* apellido, float sueld
 eEmpleado* emp = (eEmpleado*)malloc( sizeof(eEmpleado));
 
 if(emp != NULL){
-    emp->legajo = leg;
-    strcpy(emp->nombre, nombre);
-    strcpy(emp->apellido, apellido);
-    emp->sueldo = sueldo;
-
+    empleado_setLegajo(emp,leg);
+        //emp->legajo = leg;
+        strcpy(emp->nombre, nombre);
+        strcpy(emp->apellido, apellido);
+        emp->sueldo = sueldo;
+    }
+    return emp;
 }
-return emp;
+
+int empleado_setLegajo(eEmpleado* this,int legajo){
+
+   int todoOk = 0;
+
+   if( this != NULL && legajo > 0 ){
+
+    this->legajo = legajo;
+    todoOk = 1;
+   }
+
+   return todoOk;
 }
 
+int empleado_getLegajo(eEmpleado* this,int* legajo){
+
+    int todoOk = 0;
+
+    if( this != NULL && legajo != NULL){
+
+        *legajo = this->legajo;
+        todoOk = 1;
+    }
+
+    return todoOk;
+}
