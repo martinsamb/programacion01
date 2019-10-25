@@ -1,0 +1,9 @@
+1,juan,perez,35.6,0
+2,pepe,gomez,40.6,1
+3,maria,rosa,100.6,2
+
+
+
+
+
+
