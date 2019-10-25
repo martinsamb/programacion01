@@ -5,6 +5,9 @@
 int main(void)
 {
     Cliente* listClientes[1000];//obtengo un array de puntero de tipo clientes
+    int posicion = 0;
+    for(i = 0; i < 1000; i++)//Inicializa con NULL el array
+        listaClientes[i] = NULL;
 
  FILE *pFile;
  int r;
