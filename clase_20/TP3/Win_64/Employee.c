@@ -61,9 +61,19 @@ Employee* employee_newParametrosInt(int id, char* nombreStr, int horasTrabajadas
     }
     return retorno;
 }
-void employee_delete();
+void employee_delete()
+{
+    int retorno =-1;
 
-int employee_setId(Employee* this,int id);
+    return retorno;
+}
+
+int employee_setId(Employee* this,int id)
+{
+    int retorno =-1;
+
+    retun retorno;
+}
 int employee_getId(Employee* this,int* id);
 
 int employee_setNombre(Employee* this,char* nombre);

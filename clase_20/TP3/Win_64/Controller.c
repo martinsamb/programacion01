@@ -3,6 +3,8 @@
 #include "LinkedList.h"
 #include "Employee.h"
 
+#define SRT_SIZE 50
+
 
 /** \brief Carga los datos de los empleados desde el archivo data.csv (modo texto).
  *
@@ -123,7 +125,39 @@ int controller_sortEmployee(LinkedList* pArrayListEmployee)
  */
 int controller_saveAsText(char* path , LinkedList* pArrayListEmployee)
 {
-    return 1;
+    int i;
+    Employee* pEmpleado = NULL;
+    int retorno =-1;
+    FILE *pFile = NULL;
+    int bufferID;
+    int bufferHorasTrabajadas;
+    int bufferSueldo;
+    char bufferNombre[SRT_SIZE];
+    int contador = 0;
+
+    if(path != NULL && pArrayListEmployee != NULL)
+    {
+        pFile=fopen(path,"w");
+        if(pFile != NULL)
+        {
+            for(i = 0; i < ll_len(pArrayListEmployee); i++)
+            {
+                pEmpleado=ll_get(pArrayListEmployee,i);
+                employee_getId(pEmpleado, &bufferID);
+                employee_getNombre(pEmpleado,&bufferNombre);
+                employee_getHorasTrabajadas(pEmpleado,&bufferHorasTrabajadas);
+                employee_getSueldo(pEmpleado,&bufferSueldo);
+
+                if(fprintf(pFile,"%d,%s,%d,%d\n", bufferID,bufferNombre,bufferHorasTrabajadas,bufferSueldo)>8)
+                contador++;
+            }
+            retorno = 0;
+            fclose(pFile);
+            printf("\n Elementos guardados exitosamente %d",contador);
+        }
+    }
+
+    return retorno;
 }
 
 /** \brief Guarda los datos de los empleados en el archivo data.csv (modo binario).

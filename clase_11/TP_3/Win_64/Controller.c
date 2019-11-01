@@ -11,7 +11,7 @@
  * \param path char*
  * \param pArrayListEmployee LinkedList*
  * \return int
- */
+ */:
 
   int controller_loadFromText(char* path , LinkedList* pArrayListEmployee)
 {
