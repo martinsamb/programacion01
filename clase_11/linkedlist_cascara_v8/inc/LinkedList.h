@@ -22,7 +22,6 @@ struct Node
 {
     void* pElement;                 //puntero al elemento (persona, empleado, etc.)
     struct Node* pNextNode;         //puntero al prox nodo
-
 }typedef Node;
 
 struct LinkedList

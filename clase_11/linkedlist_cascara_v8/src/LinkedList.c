@@ -36,7 +36,6 @@ LinkedList* ll_newLinkedList(void)
 int ll_len(LinkedList* this)
 {
     int returnAux = -1;
-
     if(this!= NULL)
     {
        returnAux = this->size;
@@ -53,6 +52,7 @@ int ll_len(LinkedList* this)
                         (pNode) Si funciono correctamente
  *
  */
+
 static Node* getNode(LinkedList* this, int nodeIndex)
 {
     int i;
@@ -77,7 +77,6 @@ static Node* getNode(LinkedList* this, int nodeIndex)
         }
     return NULL;
 }
-
 /** \brief  Permite realizar el test de la funcion getNode la cual es privada
  *
  * \param this LinkedList* Puntero a la lista
