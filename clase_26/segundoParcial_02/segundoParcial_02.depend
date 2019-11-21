@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1574025886 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entrega.h"
+	"utn.h"
+
+1574023956 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\linkedlist.h
+
+1574025130 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\entrega.h
+
+1574025881 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\utn.h
+
+1574023872 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\entrega.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entrega.h"
+	"utn.h"
+
+1574023987 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574025774 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Entrega.h"
+	"Parser.h"
+	"utn.h"
+
+1574023548 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\controller.h
+
+1574025446 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\parser.h
+
+1574025760 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entrega.h"
+	"utn.h"
+	"Controller.h"
+
+1574025839 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_02\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+

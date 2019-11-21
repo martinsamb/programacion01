@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1574057111 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+	"Parser.h"
+	"Controller.h"
+
+1574043682 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\linkedlist.h
+
+1574043744 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\entidad.h
+
+1574059801 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\parser.h
+	"LinkedList.h"
+
+1574058386 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\controller.h
+	"LinkedList.h"
+
+1574057782 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\entidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad.h"
+	"LinkedList.h"
+	"utn.h"
+
+1574038291 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\utn.h
+
+1574039927 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+
+1574059850 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Parser.h"
+	"LinkedList.h"
+	"Entidad.h"
+	"Controller.h"
+
+1574038448 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+	"Parser.h"
+
+1574059780 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_03\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Entidad.h"
+	"Controller.h"
+
