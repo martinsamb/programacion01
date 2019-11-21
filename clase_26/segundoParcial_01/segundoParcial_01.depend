@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1574021845 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+	"Parser.h"
+	"utn.h"
+
+1573956556 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\linkedlist.h
+
+1574018735 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\entregas.h
+
+1573969730 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\parser.h
+
+1573956660 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\utn.h
+
+1574021628 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\entregas.c
+	<stdio.h>
+	<stdlib.h>
+	"Entregas.h"
+	"utn.h"
+	<string.h>
+
+1573955679 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1573958920 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Entregas.h"
+	"utn.h"
+
+1573969233 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\controller.h
+	"Entregas.h"
+
+1573972174 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Entregas.h"
+
+1574021677 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_01\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
