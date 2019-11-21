@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1574310617 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"Parser.h"
+	"Empleado.h"
+
+1574310662 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\empleado.h
+	"LinkedList.h"
+
+1574311059 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\linkedlist.h
+
+1574310802 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\parser.h
+	"LinkedList.h"
+
+1574310708 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574311038 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1574310777 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_07\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"LinkedList.h"
+

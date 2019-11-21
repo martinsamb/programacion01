@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1574128082 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Llamada.h"
+	"Controller.h"
+	"Parser.h"
+	"utn.h"
+
+1574128233 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\linkedlist.h
+
+1574128396 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\llamada.h
+
+1574128110 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\controller.h
+	<stdio.h>
+	<stdlib.h>
+	"Llamada.h"
+
+1574128270 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\parser.h
+
+1574128598 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\utn.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1574128750 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574128456 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\llamada.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Llamada.h"
+
+1574128551 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Llamada.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Controller.h"
+	"utn.h"
+
+1574128290 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"Llamada.h"
+	"Parser.h"
+
+1574128624 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_05\utn.c
+	"utn.h"
+

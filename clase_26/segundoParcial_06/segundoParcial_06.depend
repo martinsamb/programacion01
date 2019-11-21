@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1574331531 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"Controller.h"
+	"LinkedList.h"
+
+1574331513 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\controller.h
+
+1574365049 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\linkedlist.h
+
+1574363130 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"utn.h"
+	"Parser.h"
+
+1574363074 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\empleado.h
+	"LinkedList.h"
+
+1574146250 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\utn.h
+
+1574365542 c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\parser.h
+	"LinkedList.h"
+	"Empleado.h"
+	"Parser.h"
+
+1574365077 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574365396 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1574365601 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"Empleado.h"
+	"Parser.h"
+	"LinkedList.h"
+	"Empleado.h"
+	"Parser.h"
+
+1574146163 source:c:\users\martinsamb\documents\01_unt_programacion\04_programacion i\segundoparcial_06\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	<time.h>
+
