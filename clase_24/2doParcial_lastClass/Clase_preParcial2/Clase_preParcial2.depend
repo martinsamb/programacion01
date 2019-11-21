@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1573777782 source:c:\users\alumno\desktop\clase_preparcial2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1573080746 c:\users\alumno\desktop\clase_preparcial2\linkedlist.h
+
+1573780462 source:c:\users\alumno\desktop\clase_preparcial2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Empleado.h"
+
+1573780471 c:\users\alumno\desktop\clase_preparcial2\empleado.h
+
+1573779221 c:\users\alumno\desktop\clase_preparcial2\parser.h
+	"LinkedList.h"
+
+1573780314 source:c:\users\alumno\desktop\clase_preparcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1573779449 source:c:\users\alumno\desktop\clase_preparcial2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"LinkedList.h"
+
+1573858364 source:c:\users\dell-pc\desktop\clase_preparcial2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1573858386 c:\users\dell-pc\desktop\clase_preparcial2\linkedlist.h
+
+1573862125 source:c:\users\dell-pc\desktop\clase_preparcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1573861183 c:\users\dell-pc\desktop\clase_preparcial2\empleado.h
+	"LinkedList.h"
+
+1573861723 c:\users\dell-pc\desktop\clase_preparcial2\parser.h
+	"LinkedList.h"
+
+1573861891 source:c:\users\dell-pc\desktop\clase_preparcial2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"LinkedList.h"
+
+1573861266 source:c:\users\dell-pc\desktop\clase_preparcial2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"Parser.h"
+	"Empleado.h"
+

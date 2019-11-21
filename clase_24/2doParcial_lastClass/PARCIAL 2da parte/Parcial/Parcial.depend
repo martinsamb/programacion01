@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1571249930 source:c:\users\user\desktop\parcial 2da parte\parcial\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	"clientes.h"
+
+1570916771 c:\users\user\desktop\parcial 2da parte\parcial\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1570927229 c:\users\user\desktop\parcial 2da parte\parcial\clientes.h
+
+1571251493 source:c:\users\user\desktop\parcial 2da parte\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	"pedidos.h"
+	"clientes.h"
+	"informes.h"
+
+1571244673 c:\users\user\desktop\parcial 2da parte\parcial\pedidos.h
+	"clientes.h"
+
+1571250205 source:c:\users\user\desktop\parcial 2da parte\parcial\pedidos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	"clientes.h"
+	"pedidos.h"
+
+1570919009 source:c:\users\user\desktop\parcial 2da parte\parcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1571251447 c:\users\user\desktop\parcial 2da parte\parcial\informes.h
+	"pedidos.h"
+	"clientes.h"
+
+1571251493 source:c:\users\user\desktop\parcial 2da parte\parcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"clientes.h"
+	"pedidos.h"
+	"validaciones.h"
+	"informes.h"
+

@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1557190884 source:c:\users\alumno\desktop\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1555944002 source:c:\users\alumno\desktop\estructuraslunes\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
+1555981740 source:c:\users\alumno\desktop\abmsector\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+
+1557189618 source:c:\users\alumno\desktop\estructuras2\clases.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1557188361 c:\users\alumno\desktop\estructuras2\clases.h
+
+1557500812 source:c:\users\user\desktop\estructuras2\clases.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1557500812 c:\users\user\desktop\estructuras2\clases.h
+
+1557501250 source:c:\users\user\desktop\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1557501348 source:c:\program files\momo\archivos\utn sistemas 2019\prog y lab 1 2019 - a\para el parcial\estructuras2\clases.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1557500814 c:\program files\momo\archivos\utn sistemas 2019\prog y lab 1 2019 - a\para el parcial\estructuras2\clases.h
+
+1557501252 source:c:\program files\momo\archivos\utn sistemas 2019\prog y lab 1 2019 - a\para el parcial\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1557501348 source:c:\users\user\desktop\para el parcial - posta\estructuras2\clases.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
+1557500814 c:\users\user\desktop\para el parcial - posta\estructuras2\clases.h
+
+1557501252 source:c:\users\user\desktop\para el parcial - posta\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"clases.h"
+
