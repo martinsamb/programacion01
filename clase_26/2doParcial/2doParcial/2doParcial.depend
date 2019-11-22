@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1574384672 source:d:\mis documentos\martinsamb\2doparcial\2doparcial\cachorro.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Cachorro.h"
+
+1574382641 d:\mis documentos\martinsamb\2doparcial\2doparcial\cachorro.h
+
+1574382022 source:d:\mis documentos\martinsamb\2doparcial\2doparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Cachorro.h"
+	"Parser.h"
+	"utn.h"
+
+1574373936 d:\mis documentos\martinsamb\2doparcial\2doparcial\linkedlist.h
+
+1574373897 d:\mis documentos\martinsamb\2doparcial\2doparcial\parser.h
+
+1574373874 d:\mis documentos\martinsamb\2doparcial\2doparcial\utn.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1574380301 source:d:\mis documentos\martinsamb\2doparcial\2doparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574384690 source:d:\mis documentos\martinsamb\2doparcial\2doparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Cachorro.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Controller.h"
+	"utn.h"
+
+1574376619 d:\mis documentos\martinsamb\2doparcial\2doparcial\controller.h
+	<stdio.h>
+	<stdlib.h>
+	"Cachorro.h"
+
+1574379881 source:d:\mis documentos\martinsamb\2doparcial\2doparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"utn.h"
+	"Cachorro.h"
+	"Parser.h"
+
+1574380345 source:d:\mis documentos\martinsamb\2doparcial\2doparcial\utn.c
+	"utn.h"
+
