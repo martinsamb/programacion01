@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1576742339 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\computer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"computer.h"
+	"LinkedList.h"
+	"utn.h"
+
+1576740201 c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\computer.h
+
+1576740277 c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\linkedlist.h
+
+1576740322 c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\utn.h
+
+1576741259 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"computer.h"
+	"LinkedList.h"
+	"utn.h"
+	"Parser.h"
+
+1576740296 c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\parser.h
+
+1576740091 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"computer.h"
+
+1576740147 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"computer.h"
+
+1576740167 source:c:\users\maría marta\desktop\martin\utn\04_programacion1\2doparcial\segundoparcial_20\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
